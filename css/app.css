@@ -54,9 +54,9 @@
 .box {
     background: rgba(47, 47, 47, .5) ;  /* fallback for old browsers */
     border-radius: 7px;
-    -moz-box-shadow:    inset 0 0 15px #000000;
-    -webkit-box-shadow: inset 0 0 15px #000000;
-    box-shadow:         inset 0 0 15px #000000;
+    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.7);
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.7);
+    box-shadow:         inset 0 0 15px rgba(0,0,0,.7);
 }
 
 .box p {
@@ -88,6 +88,29 @@
 
 .values {
     color: var(--orangish);
+}
+
+/* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
+
+.pulsate {
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.6;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1.0;
+        text-shadow: 0 0 3px #fff;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
 }
 
 /* Cursor CSS - https://jsfiddle.net/dygxxb7n/601/ - Credit to Grinmax (https://stackoverflow.com/questions/42481586/input-cursor-that-is-blinking)*/
