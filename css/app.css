@@ -3,6 +3,7 @@
     --light-blue: #AFEEEE;
     --pinkish: #D98695;
     --orangish: #ffa500;
+    --text-color: #e1e6f2;
 }
 
 /* Main Page */
@@ -96,6 +97,7 @@
     -webkit-animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite;
     opacity: 0.2;
+    cursor: pointer;
 }
 
 @-webkit-keyframes pulsate {
@@ -144,12 +146,49 @@
     border: none;
 }
 
+.modal-header button {
+    color: var(--text-color);
+}
+
+.modal-header button:hover {
+    color: #fff;
+}
+
 .modal-heading {
     font-size: 2rem;
 }
 
 #location-modal-content {
-    background: #D66D75;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--text-color);
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#coding-modal-content {
+    color: var(--text-color);
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#languages-modal-content {
+    color: var(--text-color);
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#work-modal-content {
+    color: var(--text-color);
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#social-modal-content {
+    color: var(--text-color);
+    background: #DA22FF;  /* fallback for old browsers */
+    ackground: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
