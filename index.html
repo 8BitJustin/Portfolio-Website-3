@@ -19,9 +19,9 @@
 				<!-- <div class="col-12 main-header">
 					<h1 class="display-4 text-center">Justin Olson</h1>
 				</div> -->
-				<div class="col-md-5 box">
+				<div class="col-md-7 col-xl-6 box">
 					<p class="lead box-para-top"><span class="const">const</span> <span class="name"> justin</span> = {</p>
-					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate">location:</span> <span class="values">'Arizona'</span>,</p>
+					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate" data-toggle="modal" data-target="#location-modal">location:</span> <span class="values">'Arizona'</span>,</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys">interests:</span> <span class="values">['Gaming', <span class="pulsate">'Coding'</span>, 'Hiking']</span>,</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate">languages:</span> <span class="values">['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap']</span>,</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate">work:</span> <span class="values">['Projects', 'Github', 'Resume']</span>,</p>
@@ -29,7 +29,23 @@
 					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate">social:</span> <span class="values">['Facebook', 'LinkedIn', 'Instagram']</span></p>
 					<p class="lead box-para-bot">};<span class="cursor"><i></i></span></p>
 				</div>
-			  </div>
+			</div>
+			<!-- Location Modal -->
+			<div class="modal fade" id="location-modal" tabindex="-1" role="dialog" aria-labelledby="location-modal-label" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					<div class="modal-content" id="location-modal-content">
+						<div class="modal-header">
+							<h5 class="display-4 modal-title modal-heading" id="location-modal-label">Bright and sunny Tucson, Arizona to be exact</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in vestibulum urna. Phasellus lobortis ligula at tincidunt laoreet. In rutrum consequat eros eu auctor. Fusce viverra lacinia porttitor. Curabitur consectetur ex nibh, non aliquam sem fermentum sed. Vivamus scelerisque posuere semper.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- Optional JavaScript -->

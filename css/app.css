@@ -95,21 +95,20 @@
 .pulsate {
     -webkit-animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite;
-    opacity: 0.6;
+    opacity: 0.2;
 }
 
 @-webkit-keyframes pulsate {
     0% {
-        opacity: 0.6;
+        opacity: 0.2;
     }
 
     50% {
         opacity: 1.0;
-        text-shadow: 0 0 3px #fff;
     }
 
     100% {
-        opacity: 0.6;
+        opacity: 0.2;
     }
 }
 
@@ -138,4 +137,19 @@
 @keyframes blink {
 	from { opacity: 1; }
 	to { opacity: 0; }
+}
+
+/* Modals */
+.modal-header {
+    border: none;
+}
+
+.modal-heading {
+    font-size: 2rem;
+}
+
+#location-modal-content {
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
