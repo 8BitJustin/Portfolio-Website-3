@@ -176,7 +176,13 @@
     border: none;
 }
 
+.modal-header h5 {
+    margin: 0 auto;
+}
+
 .modal-header button {
+    position: absolute;
+    right: 3%;
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
@@ -225,6 +231,6 @@
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #DA22FF;  /* fallback for old browsers */
-    ackground: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
