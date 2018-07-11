@@ -24,23 +24,23 @@
 }
 
 /* With Animated Gradient */
-    @-webkit-keyframes PortfolioBG {
-        0%{background-position:50% 0%}
-        50%{background-position:50% 100%}
-        100%{background-position:50% 0%}
-    }
+@-webkit-keyframes PortfolioBG {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
 
-    @-moz-keyframes PortfolioBG {
-        0%{background-position:50% 0%}
-        50%{background-position:50% 100%}
-        100%{background-position:50% 0%}
-    }
+@-moz-keyframes PortfolioBG {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
 
-    @keyframes PortfolioBG {
-        0%{background-position:50% 0%}
-        50%{background-position:50% 100%}
-        100%{background-position:50% 0%}
-    }
+@keyframes PortfolioBG {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
 
 .main-header {
     position: absolute;
@@ -80,22 +80,29 @@
 
 .const {
     color: var(--pinkish);
+    color: #D98695; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 .name,
 .keys {
     color: var(--light-blue);
+    color: #AFEEEE; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 .values {
     color: var(--orangish);
+    -color: #ffa500; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 /* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
 
 .pulsate {
     -webkit-animation: pulsate 2s ease-out;
+    -moz-animation: pulsate 2s ease-out;
+    animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     opacity: 0.2;
     cursor: pointer;
 }
@@ -104,15 +111,38 @@
     0% {
         opacity: 0.2;
     }
-
     50% {
         opacity: 1.0;
     }
-
     100% {
         opacity: 0.2;
     }
 }
+
+@-moz-keyframes pulsate {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
 
 /* Cursor CSS - https://jsfiddle.net/dygxxb7n/601/ - Credit to Grinmax (https://stackoverflow.com/questions/42481586/input-cursor-that-is-blinking)*/
 .cursor {
@@ -148,6 +178,7 @@
 
 .modal-header button {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 .modal-header button:hover {
@@ -160,6 +191,7 @@
 
 #location-modal-content {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #f857a6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -167,6 +199,7 @@
 
 #coding-modal-content {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #7474BF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -174,6 +207,7 @@
 
 #languages-modal-content {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #348F50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -181,6 +215,7 @@
 
 #work-modal-content {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #e65c00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -188,6 +223,7 @@
 
 #social-modal-content {
     color: var(--text-color);
+    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #DA22FF;  /* fallback for old browsers */
     ackground: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
