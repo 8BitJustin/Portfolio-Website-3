@@ -1,9 +1,14 @@
 /* Colors */
 :root {
-    --light-blue: #AFEEEE;
+    --light-blue: #50BFE6;
     --pinkish: #D98695;
-    --orangish: #ffa500;
+    --orangish: #FF9933;
     --text-color: #e1e6f2;
+    --redd: #FF3855;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* Main Page */
@@ -58,7 +63,7 @@
     -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.7);
     -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.7);
     box-shadow:         inset 0 0 15px rgba(0,0,0,.7);
-    padding: 10px 30px;
+    padding: 10px 48px;
 }
 
 .box p {
@@ -87,12 +92,22 @@
 .name,
 .keys {
     color: var(--light-blue);
-    color: #AFEEEE; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+    color: #50BFE6; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 .values {
     color: var(--orangish);
-    -color: #ffa500; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+    color: #FFCC33; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+}
+
+.function {
+    color: var(--pinkish);
+    color: #D98695; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+}
+
+.key-function {
+    color: var(--redd);
+    color: #FF3855; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 /* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
@@ -264,7 +279,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .box {
-        padding: 5px 15px;
+        padding: 5px 24px;
         width: 100%;
     }
     .box p {
