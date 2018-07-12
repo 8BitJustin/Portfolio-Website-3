@@ -172,6 +172,10 @@
 }
 
 /* Modals */
+.modal {
+    margin: 0px;
+}
+
 .modal-header {
     border: none;
 }
@@ -234,3 +238,30 @@
     background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box p {
+        font-size: .9rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
