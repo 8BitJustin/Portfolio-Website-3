@@ -67,16 +67,16 @@
 }
 
 .box-para-top {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .box-para-bot {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .box-para-top,
 .box-para {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .const {
@@ -265,8 +265,13 @@
 @media (max-width: 575.98px) {
     .box {
         padding: 5px 15px;
+        width: 100%;
     }
     .box p {
         font-size: .8rem;
+    }
+    .box-para-top,
+    .box-para {
+        margin-bottom: 12px;
     }
 }
