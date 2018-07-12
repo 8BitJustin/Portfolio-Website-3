@@ -216,7 +216,7 @@
     background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#languages-modal-content {
+#expertise-modal-content {
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #348F50;  /* fallback for old browsers */
