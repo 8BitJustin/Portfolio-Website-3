@@ -1,10 +1,11 @@
 /* Colors */
 :root {
     --light-blue: #50BFE6;
-    --pinkish: #D98695;
+    --pinkish: #FF6EFF;
     --orangish: #FF9933;
     --text-color: #e1e6f2;
     --redd: #FF3855;
+    --civic-si-coupe: #66FF66;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 }
 
 /* Main Page */
+
 .main {
     height: 100vh;
     /* Original Gradient BG
@@ -29,6 +31,7 @@ body {
 }
 
 /* With Animated Gradient */
+
 @-webkit-keyframes PortfolioBG {
     0%{background-position:50% 0%}
     50%{background-position:50% 100%}
@@ -86,10 +89,14 @@ body {
 
 .const {
     color: var(--pinkish);
-    color: #D98695; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+    color: #FF6EFF; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
-.name,
+.name {
+    color: var(--civic-si-coupe);
+    color: #66FF66;
+}
+
 .keys {
     color: var(--light-blue);
     color: #50BFE6; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
@@ -102,7 +109,7 @@ body {
 
 .function {
     color: var(--pinkish);
-    color: #D98695; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+    color: #FF6EFF; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
 .key-function {
@@ -110,12 +117,16 @@ body {
     color: #FF3855; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
+.clicky:focus {
+    outline: #FDFF00 auto 5px;
+}
+
 /* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
 
 .pulsate {
-    -webkit-animation: pulsate 2s ease-out;
-    -moz-animation: pulsate 2s ease-out;
-    animation: pulsate 2s ease-out;
+    -webkit-animation: pulsate 1.5s ease-out;
+    -moz-animation: pulsate 1.5s ease-out;
+    animation: pulsate 1.5s ease-out;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
@@ -159,19 +170,19 @@ body {
     }
 }
 
-
 /* Cursor CSS - https://jsfiddle.net/dygxxb7n/601/ - Credit to Grinmax (https://stackoverflow.com/questions/42481586/input-cursor-that-is-blinking)*/
+
 .cursor {
 	position: relative;
 }
 
 .cursor	i {
 	position: absolute;
-	width: 1px;
-	height: 82%;
+	width: 2px;
+	height: 84%;
 	background-color: #fff;
 	left: 5px;
-	top: 21%;
+	top: 14%;
 	animation-name: blink;
 	animation-duration: 800ms;
 	animation-iteration-count: infinite;
@@ -188,6 +199,7 @@ body {
 }
 
 /* Modals */
+
 .modal {
     margin: 0px;
 }
@@ -283,7 +295,7 @@ body {
         width: 100%;
     }
     .box p {
-        font-size: .8rem;
+        font-size: .6rem;
     }
     .box-para-top,
     .box-para {
