@@ -238,9 +238,18 @@ body {
 
 /* Modal Specific */
 
+/* Coding */
+
 #coding-modal img {
     max-width: 50%;
     margin-bottom: 16px;
+}
+
+/* Expertise */
+
+#expertise-modal li {
+    background-color: transparent;
+    border: none;
 }
 
 /* Modal Colors and BGs */
