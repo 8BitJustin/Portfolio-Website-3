@@ -236,6 +236,11 @@ body {
     font-size: 1rem;
 }
 
+.modal-body p:last-child {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
 /* Modal Specific */
 
 /* Coding */
@@ -247,9 +252,20 @@ body {
 
 /* Expertise */
 
-#expertise-modal li {
-    background-color: transparent;
-    border: none;
+#expertise-modal ul {
+    padding-bottom: 16px;
+}
+
+#expertise-modal .modal-body {
+    padding-bottom: 30px;
+}
+
+.modal-body .expertise-para-title {
+    font-size: 1.4rem;
+}
+
+.modal-body .expertise-para-desc {
+    font-size: .8rem;
 }
 
 /* Modal Colors and BGs */
