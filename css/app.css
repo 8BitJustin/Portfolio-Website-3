@@ -74,6 +74,10 @@ body {
     font-size: 1.4em;
 }
 
+.box a {
+    text-decoration: none;
+}
+
 .box-para-top {
     margin-top: 12px;
 }
@@ -198,7 +202,7 @@ body {
 	to { opacity: 0; }
 }
 
-/* Modals */
+/* Modals Misc */
 
 .modal {
     margin: 0px;
@@ -226,6 +230,19 @@ body {
 .modal-heading {
     font-size: 2rem;
 }
+
+.modal-body p {
+    font-size: 1rem;
+}
+
+/* Modal Specific */
+
+#coding-modal img {
+    max-width: 50%;
+    margin-bottom: 16px;
+}
+
+/* Modal Colors and BGs */
 
 #location-modal-content {
     color: var(--text-color);
@@ -279,12 +296,18 @@ body {
     .box p {
         font-size: 1.3rem;
     }
+    .modal img {
+        max-width: 60%;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     .box p {
         font-size: 1.1rem;
+    }
+    .modal img {
+        max-width: 60%;
     }
 }
 
@@ -300,5 +323,9 @@ body {
     .box-para-top,
     .box-para {
         margin-bottom: 12px;
+    }
+    #coding-modal img {
+        max-width: 75%;
+        margin-bottom: 16px;
     }
 }
