@@ -214,6 +214,7 @@ body {
 
 .modal-header h5 {
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .modal-header button {
