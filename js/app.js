@@ -1,8 +1,7 @@
-const justin = {
-    location: 'Arizona',
+const jolsondigital = {
+    name: 'Justin',
     interests: ['Coding', 'Gaming', 'Hiking'],
     expertise: () => {
-        console.log('if you see this, whatever you did works.');
         workingSkills();
         basicSkills();
     },
