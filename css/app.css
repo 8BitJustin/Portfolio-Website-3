@@ -270,7 +270,7 @@ body {
 
 /* Modal Colors and BGs */
 
-#location-modal-content {
+#name-modal-content {
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     background: #f857a6;  /* fallback for old browsers */
