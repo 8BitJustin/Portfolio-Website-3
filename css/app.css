@@ -242,10 +242,19 @@ body {
 
 .modal-body p:last-child {
     margin: 0;
+}
+
+.modal-body .row {
     padding-bottom: 30px;
 }
 
 /* Modal Specific */
+
+/* Name */
+
+#name-modal img {
+    max-width: 70%;;
+}
 
 /* Coding */
 
@@ -328,6 +337,9 @@ body {
     }
     .modal img {
         max-width: 60%;
+    }
+    #name-modal p {
+        padding-bottom: 30px;
     }
 }
 
