@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/app.css">
 
 		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 		<title>Portfolio Website 03</title>
 	</head>
@@ -26,9 +26,9 @@
 					<p class="lead box-para-top"><span class="const">const</span> <span class="name"> jolsondigital</span> = {</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate clicky" role="button" tabindex="0" data-toggle="modal" data-target="#name-modal">name</span>: <span class="values">'Justin'</span>,</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys">interests</span>: <span class="values">['Gaming', <span class="pulsate clicky" role="button" tabindex="0" data-toggle="modal" data-target="#coding-modal">'Coding'</span>, 'Hiking']</span>,</p>
-					<p class="lead box-para">&emsp;&emsp;<span class="key-function pulsate clicky" role="button" tabindex="0" data-toggle="modal" data-target="#expertise-modal">expertise</span>: () <span class="function">=></span> {</p>
-					<p class="lead box-para">&emsp;&emsp;&emsp;&emsp;<span class="key-function">workingSkills</span>();</p>
-					<p class="lead box-para">&emsp;&emsp;&emsp;&emsp;<span class="key-function">basicSkills</span>();</p>
+					<p class="lead box-para">&emsp;&emsp;<span class="key-function pulsate clicky" role="button" tabindex="0" data-toggle="modal" data-target="#expertise-modal">expertise</span>: <span class="parenthesis">()</span><span class="function"> =></span> {</p>
+					<p class="lead box-para">&emsp;&emsp;&emsp;&emsp;<span class="key-function">workingSkills</span><span class="parenthesis">()</span>;</p>
+					<p class="lead box-para">&emsp;&emsp;&emsp;&emsp;<span class="key-function">basicSkills</span><span class="parenthesis">()</span>;</p>
 					<p class="lead box-para">&emsp;&emsp;},</p>
 					<p class="lead box-para">&emsp;&emsp;<span class="keys pulsate clicky" role="button" tabindex="0" data-toggle="modal" data-target="#work-modal">work</span>: <span class="values">['Projects', 'Github', 'Resume']</span>,</p>
 					<a href="mailto:j.olson.digital@gmail.com" target="_blank"><p class="lead box-para pulsate">&emsp;&emsp;<span class="keys">contact</span>: <span class="values clicky" role="button" tabindex="0">'j.olson.digital@gmail.com'</span>,</p></a>
@@ -97,7 +97,7 @@
 				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 					<div class="modal-content" id="expertise-modal-content">
 						<div class="modal-header">
-							<h5 class="display-4 modal-title modal-heading" id="expertise-modal-label">jolsondigital.expertise()</h5>
+							<h5 class="display-4 modal-title modal-heading" id="expertise-modal-label">jolsondigital.expertise<span class="parenthesis">()</span></h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -106,8 +106,8 @@
 							<div class="container-fluid">
 								<div class="row justify-content-center">
 									<div class="col-md-6">
-										<p class="lead text-center expertise-para-title">workingSkills()</p>
-										<p class="lead text-center expertise-para-desc">(languages/libraries I'm very comfortable with)</p>
+										<p class="lead text-center expertise-para-title">workingSkills<span class="parenthesis">()</span></p>
+										<p class="lead text-center expertise-para-desc">languages/libraries I'm very comfortable with</p>
 										<ul class="list-group text-center">
 											<li class="list-group-item list-group-item-action list-group-item-success">HTML</li>
 											<li class="list-group-item list-group-item-action list-group-item-success">CSS</li>
@@ -116,8 +116,8 @@
 										</ul>
 									</div>
 									<div class="col-md-6">
-										<p class="lead text-center expertise-para-title">basicSkills()</p>
-										<p class="lead text-center expertise-para-desc">(languages/libraries I know of and am still actively learning)</p>
+										<p class="lead text-center expertise-para-title">basicSkills<span class="parenthesis">()</span></p>
+										<p class="lead text-center expertise-para-desc">languages/libraries I'm still learning but familiar with</p>
 										<ul class="list-group text-center">
 											<li class="list-group-item list-group-item-action list-group-item-info">jQuery</li>
 											<li class="list-group-item list-group-item-action list-group-item-info">Python</li>

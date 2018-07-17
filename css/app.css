@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Main Page */
@@ -71,7 +71,7 @@ body {
 
 .box p {
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .box a {
@@ -123,6 +123,10 @@ body {
 
 .clicky:focus {
     outline: #FDFF00 auto 5px;
+}
+
+.parenthesis {
+    letter-spacing: 4px;
 }
 
 /* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
@@ -183,10 +187,10 @@ body {
 .cursor	i {
 	position: absolute;
 	width: 2px;
-	height: 84%;
+	height: 85%;
 	background-color: #fff;
-	left: 5px;
-	top: 14%;
+	left: 4px;
+	top: 18%;
 	animation-name: blink;
 	animation-duration: 800ms;
 	animation-iteration-count: infinite;
@@ -320,7 +324,7 @@ body {
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .box p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     .modal img {
         max-width: 60%;
@@ -335,6 +339,9 @@ body {
     .modal img {
         max-width: 60%;
     }
+    .modal-title {
+        font-size: 1.75rem;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -344,7 +351,7 @@ body {
         width: 100%;
     }
     .box p {
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .box-para-top,
     .box-para {
@@ -353,5 +360,11 @@ body {
     #coding-modal img {
         max-width: 75%;
         margin-bottom: 16px;
+    }
+    .modal-title {
+        font-size: 1.4rem;
+    }
+    .modal-body .expertise-para-title {
+        font-size: 1.2rem;
     }
 }
