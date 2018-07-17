@@ -4,7 +4,7 @@
     --pinkish: #FF6EFF;
     --orangish: #FF9933;
     --text-color: #e1e6f2;
-    --redd: #FF3855;
+    --redd: #FD5B78;
     --civic-si-coupe: #66FF66;
 }
 
@@ -118,7 +118,16 @@ body {
 
 .key-function {
     color: var(--redd);
-    color: #FF3855; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+    color: #FD5B78; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
+}
+
+.clicky {
+    text-shadow: 0 0 3px rgba(0, 0, 0, .4),
+                 0 0 8px rgba(255, 255, 255, .6);
+}
+
+.clicky:hover {
+    cursor: pointer;
 }
 
 .clicky:focus {
@@ -138,43 +147,42 @@ body {
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    opacity: 0.2;
-    cursor: pointer;
+    opacity: 0.3;
 }
 
 @-webkit-keyframes pulsate {
     0% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
 }
 
 @-moz-keyframes pulsate {
     0% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
 }
 
 @keyframes pulsate {
     0% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.2;
+        opacity: 0.3;
     }
 }
 
@@ -187,7 +195,7 @@ body {
 .cursor	i {
 	position: absolute;
 	width: 2px;
-	height: 85%;
+	height: 86%;
 	background-color: #fff;
 	left: 4px;
 	top: 18%;
