@@ -61,11 +61,11 @@ body {
 
 /* Box */
 .box {
-    background: rgba(47, 47, 47, .3) ;  /* fallback for old browsers */
+    background: rgba(0, 0, 0, .5) ;  /* fallback for old browsers */
+    box-shadow:         inset 0 0 15px rgba(0,0,0,.5);
+    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.5);
     border-radius: 7px;
-    -moz-box-shadow:    inset 0 0 15px rgba(0,0,0,.7);
-    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.7);
-    box-shadow:         inset 0 0 15px rgba(0,0,0,.7);
     padding: 10px 48px;
 }
 
@@ -121,13 +121,6 @@ body {
     color: #FD5B78; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
-.clicky {
-    text-shadow: 0 0 1px rgba(0,0,0,.5),
-                 0 0 2px rgba(0,0,0,.5),
-                 0 0 5px rgba(255,255,255,.8),
-                 0 0 8px rgba(255,255,255,.8)
-}
-
 .clicky:hover {
     cursor: pointer;
 }
@@ -143,48 +136,48 @@ body {
 /* Pulsing Text - https://www.kevinleary.net/pulsating-css3-animations/*/
 
 .pulsate {
-    -webkit-animation: pulsate 2.5s ease-out;
-    -moz-animation: pulsate 2.5s ease-out;
-    animation: pulsate 2.5s ease-out;
+    -webkit-animation: pulsate 1.5s ease-out;
+    -moz-animation: pulsate 1.5s ease-out;
+    animation: pulsate 1.5s ease-out;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 @-webkit-keyframes pulsate {
     0% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
 }
 
 @-moz-keyframes pulsate {
     0% {
-        opacity: 0.3;
+        opacity: 0.45;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
 }
 
 @keyframes pulsate {
     0% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
     50% {
         opacity: 1.0;
     }
     100% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
 }
 
