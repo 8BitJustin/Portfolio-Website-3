@@ -75,6 +75,8 @@ body {
 }
 
 .box a {
+    color: var(--orangish);
+    color: #FFCC33; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
     text-decoration: none;
 }
 
