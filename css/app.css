@@ -123,6 +123,10 @@ body {
     color: #FD5B78; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
 }
 
+.clicky {
+    text-decoration: underline;
+}
+
 .clicky:hover {
     cursor: pointer;
 }
