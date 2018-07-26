@@ -355,7 +355,7 @@ body {
     .modal img {
         max-width: 60%;
     }
-    #name-modal p {
+    #name-desc {
         padding-bottom: 30px;
     }
 }
