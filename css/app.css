@@ -272,7 +272,7 @@ body {
 /* Work */
 
 .card {
-    background: none;
+    background: rgba(225, 230, 242, .4);
     border-radius: 10px;
     border: 2px solid #e1e6f2;
     margin-bottom: 24px;
@@ -299,7 +299,8 @@ body {
 .btn-work:hover {
     background: #e1e6f2;
     border: 2px solid #e1e6f2;
-    color: #FF9933;
+    color: #9733EE;
+    box-shadow: 0 0 20px #DA22FF;
 }
 
 /* Modal Colors and BGs */
@@ -339,18 +340,17 @@ body {
 #work-modal-content {
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
-    background: #ff9966;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #social-modal-content {
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
-    background: #DA22FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Media Queries */
