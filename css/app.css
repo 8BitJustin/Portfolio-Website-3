@@ -16,11 +16,6 @@ body {
 
 .main {
     height: 100vh;
-    /* Original Gradient BG
-    background: #3494E6;
-    background: -webkit-linear-gradient(to top, #EC6EAD, #3494E6);
-    background: linear-gradient(to top, #EC6EAD, #3494E6);
-    */
 
     /* CSS Animated Gradient - https://www.gradient-animator.com/ */
     background: linear-gradient(180deg, #3494e6, #ec6ead);
@@ -72,7 +67,6 @@ body {
 
 .box p {
     color: #fff;
-    /* font-size: 1.5em; */
 }
 
 .box a {
@@ -253,14 +247,6 @@ body {
     font-size: 1.2rem;
 }
 
-/* .modal-heading {
-    font-size: 2rem;
-}
-
-.modal-body p {
-    font-size: 1rem;
-}
-
 /* Modal Specific */
 
 /* Name */
@@ -282,14 +268,6 @@ body {
 #expertise-modal ul {
     padding-bottom: 16px;
 }
-
-/* .modal-body .expertise-para-title {
-    font-size: 1.4rem;
-}
-
-.modal-body .expertise-para-desc {
-    font-size: .8rem;
-} */
 
 /* Work */
 
@@ -376,6 +354,7 @@ body {
     .modal img {
         max-width: 60%;
     }
+
     /* Name Modal */
 
     #name-desc {
@@ -388,38 +367,32 @@ body {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* .box p {
-        font-size: 1.1rem;
-    } */
+    /* General */
+
     .modal img {
         max-width: 60%;
     }
-    /* .modal-title {
-        font-size: 1.75rem;
-    } */
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* Main Box */
+
     .box {
         padding: 5px 24px;
         width: 100%;
     }
-    /* .box p {
-        font-size: .8rem;
-    } */
+
     .box-para-top,
     .box-para {
         margin-bottom: 12px;
     }
+
+    /* Coding Modal */
+
     #coding-modal img {
         max-width: 75%;
         margin-bottom: 16px;
     }
-    /* .modal-title {
-        font-size: 1.4rem;
-    } */
-    /* .modal-body .expertise-para-title {
-        font-size: 1.2rem;
-    } */
 }
