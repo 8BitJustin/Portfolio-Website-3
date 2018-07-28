@@ -275,6 +275,19 @@ body {
     background: none;
     border-radius: 10px;
     border: 2px solid #e1e6f2;
+    margin-bottom: 24px;
+}
+
+.card-body {
+    height: 250px;
+}
+
+.modal-card-heading {
+    font-size: 1.2rem;
+}
+
+.modal-card-para {
+    font-size: 1rem;
 }
 
 .btn-work {
@@ -355,6 +368,7 @@ body {
         max-width: 60%;
     }
 
+
     /* Fonts */
 
     .modal-heading {
@@ -374,8 +388,11 @@ body {
     #name-desc {
         padding-bottom: 30px;
     }
-    .name-img img {
-        padding-bottom: 16px;
+
+    /* Card Modal */
+
+    .card-body {
+        height: auto;
     }
 }
 
