@@ -355,6 +355,20 @@ body {
         max-width: 60%;
     }
 
+    /* Fonts */
+
+    .modal-heading {
+        font-size: 2.0rem;
+    }
+
+    .modal-subheading {
+        font-size: 1.4rem;
+    }
+
+    .modal-para {
+        font-size: 1.0rem;
+    }
+
     /* Name Modal */
 
     #name-desc {
@@ -373,10 +387,38 @@ body {
         max-width: 60%;
     }
 
+    /* Fonts */
+
+    .modal-heading {
+        font-size: 1.6rem;
+    }
+
+    .modal-subheading {
+        font-size: 1.2rem;
+    }
+
+    .modal-para {
+        font-size: .8rem;
+    }
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* Fonts */
+
+    .modal-heading {
+        font-size: 1.2rem;
+    }
+
+    .modal-subheading {
+        font-size: 1rem;
+    }
+
+    .modal-para {
+        font-size: .8rem;
+    }
+
     /* Main Box */
 
     .box {
