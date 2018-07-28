@@ -253,10 +253,6 @@ body {
     margin: 0;
 }
 
-.modal-body .row {
-    padding-bottom: 30px;
-}
-
 /* Modal Specific */
 
 /* Name */
@@ -278,10 +274,6 @@ body {
     padding-bottom: 16px;
 }
 
-#expertise-modal .modal-body {
-    padding-bottom: 30px;
-}
-
 .modal-body .expertise-para-title {
     font-size: 1.4rem;
 }
@@ -296,6 +288,22 @@ body {
     background: none;
     border-radius: 10px;
     border: 2px solid #e1e6f2;
+}
+
+.work-header {
+    font-size: 1.5rem;
+}
+
+.btn-work {
+    background: none;
+    border: 2px solid #e1e6f2;
+    color: #e1e6f2;
+}
+
+.btn-work:hover {
+    background: #e1e6f2;
+    border: 2px solid #e1e6f2;
+    color: #FF9933;
 }
 
 /* Modal Colors and BGs */
