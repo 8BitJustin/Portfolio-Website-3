@@ -288,6 +288,7 @@ body {
 
 .modal-card-para {
     font-size: 1rem;
+    height: 120px;
 }
 
 .btn-work {
@@ -392,6 +393,14 @@ body {
     /* Card Modal */
 
     .card-body {
+        height: auto;
+    }
+
+    .modal-card-heading {
+        text-align: center;
+    }
+
+    .modal-card-para {
         height: auto;
     }
 }
