@@ -1,11 +1,11 @@
 const jolsondigital = {
     name: 'Justin',
-    interests: ['Coding', 'Gaming', 'Hiking'],
+    interests: ['Coding', 'Gaming', 'Blog'],
     expertise: () => {
         workingSkills();
         basicSkills();
     },
     work: ['Projects', 'GitHub', 'Resume'],
-    social: ['Facebook', 'LinkedIn', 'Instagram'],
-    contact: 'j.olson.digital@gmail.com'
+    contact: 'j.olson.digital@gmail.com',
+    social: ['Facebook', 'LinkedIn', 'Instagram']
 };

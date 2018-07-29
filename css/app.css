@@ -427,6 +427,19 @@ body {
         font-size: .8rem;
     }
 
+    /* Main Box */
+
+    .box {
+        padding: 8px 42px;
+        width: 100%;
+    }
+
+    .box-para-top,
+    .box-para,
+    .box-para-bot {
+        font-size: 1.25rem;
+    }
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -448,7 +461,7 @@ body {
     /* Main Box */
 
     .box {
-        padding: 5px 24px;
+        padding: 10px 40px;
         width: 100%;
     }
 
@@ -456,6 +469,13 @@ body {
     .box-para {
         margin-bottom: 12px;
     }
+
+    .box-para-top,
+    .box-para,
+    .box-para-bot {
+        font-size: .8rem;
+    }
+
 
     /* Coding Modal */
 
