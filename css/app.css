@@ -325,9 +325,9 @@ body {
 #blog-modal-content {
     color: var(--text-color);
     color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
-    background: #DD5E89;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #expertise-modal-content {
@@ -344,14 +344,6 @@ body {
     background: #DA22FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#social-modal-content {
-    color: var(--text-color);
-    color: #e1e6f2; /* For browsers that don't support CSS variables yet (looking at YOU... IE...) 8 */
-    background: #ff9966;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Media Queries */
