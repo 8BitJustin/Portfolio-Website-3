@@ -1,0 +1,536 @@
+body {
+	background-color: #696969;
+}
+
+
+
+/*****************************************/
+/*Header*/
+/*****************************************/
+
+.header-wrapper {
+	position: relative;
+}
+
+/*Logo*/
+
+.logo-wrapper {
+	position: absolute;
+	left: 50%;
+	z-index: 5;
+}
+
+#header-logo {
+	padding-top: 10px;
+	width: 200px;
+	margin-left: -90px;
+}
+
+/*Navbar Overlay*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*Main Nav*/
+
+.main-nav {
+	background-color: #211515;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+	position: absolute;
+	margin-left: 0;
+	margin-right: 0;
+	height: 46px;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav-link {
+	padding: 0;
+}
+
+.main-nav .main-nav-link {
+	margin: 0;
+	color: white;
+	font-size: 1.4em;
+}
+
+.main-nav .main-nav-link:hover { /*Hover color*/
+	color: rgba(255,255,255, 0.5);
+}
+
+.main-nav .navbar-toggler {
+    border-color: rgb(0,0,0) !important;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.main-nav .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*Navbar*/
+
+.navbar {
+	margin-top: 20px;
+}
+
+.nav-link {
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+.home-link {
+	margin-right: 30px;
+}
+
+.us-link {
+	margin-right: 30px;
+}
+
+.food-link {
+	margin-right: 140px;
+}
+
+.drink-link {
+	margin-left: 140px;
+}
+
+.location-link {
+	margin-left: 30px;
+}
+
+.contact-link {
+	margin-left: 30px;
+}
+
+.navbar .navbar-nav .nav-link { /*Text color*/
+	color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover { /*Hover color*/
+	color: rgba(255,255,255, 0.5);
+}
+
+.navbar .navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+/*****************************************/
+/*Site*/
+/*****************************************/
+
+/*Home*/
+
+.home-container {
+	background-image: url('../img/streetApproachDark01.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100vh;
+	margin-top: -120px;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.jumbotron {
+	height: 25%;
+	padding-top: 48vh;
+	background-color: transparent;
+	color: white;
+	font-family: 'Special Elite', cursive;
+}
+
+.statement {
+	font-size: 7em;
+}
+
+.bull {
+	font-size: .7em;
+}
+
+/*Us*/
+
+.us-container {
+	background-color: white;
+	color: #4c4c4c;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.us-left-col {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.us-right-col {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+/*Food*/
+
+.food-container {
+	background-color: white;
+	color: #4c4c4c;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.food-header {
+	margin-top: 100px;
+}
+
+.menu-item-name {
+	font-size: 1.5em;
+	float: left;
+}
+
+.menu-item-coname {
+	float: left;
+}
+
+.menu-item-price {
+	float: right;
+}
+
+.street-taco-header-wrapper {
+	margin-top: 80px;
+}
+
+.street-taco-items {
+	margin-top: 50px;
+}
+
+.burrito-header-wrapper {
+	margin-top: 80px;
+}
+
+.burrito-items {
+	margin-top: 50px;
+}
+
+.specialty-header-wrapper {
+	margin-top: 80px;
+}
+
+.specialty-items {
+	margin-top: 50px;
+}
+
+.sides-header-wrapper {
+	margin-top: 80px;
+}
+
+.sides-items {
+	margin-top: 50px;
+}
+
+.last-item {
+	padding-bottom: 100px;
+}
+
+/*Drink*/
+
+.drink-container {
+	background-color: #401f1c;
+	color: #f0e6cb;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.drink-header {
+	margin-top: 100px;
+}
+
+.mixed-header, .beer-header {
+	margin-top: 50px;
+}
+
+.mixed-wrapper, .beer-wrapper {
+	margin-top: 50px;
+}
+
+.drink-item {
+	font-size: 1.5em;
+}
+
+/*Location*/
+
+.location-container {
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+  	height: 500px;
+}
+
+.map {
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+  	height: 500px;
+}
+
+/*Contact*/
+
+.contact-container {
+	background-color: white;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.info-wrapper {
+	padding: 100px 0px;
+}
+
+.us-info-headers, .form-header {
+	font-size: 2.6em;
+}
+
+.sub-btn {
+	background-color: #401f1c;
+	color: #f0e6cb;
+}
+
+
+/*Footer*/
+
+footer {
+	color: #401f1c;
+	background-color: #f0e6cb;
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+.footer-wrapper {
+	width: 100vw; /*This and margin left below are needed for child div to be full width*/
+  	margin-left: calc(-50vw + 50%);
+}
+
+
+
+
+/*****************************************/
+/*Media Queries*/
+/*****************************************/
+
+/*Logo*/
+
+@media (max-width: 1400px) {
+	#header-logo {
+		margin-left: -65px;
+		width: 150px;
+	}
+}
+
+@media (max-width: 767px) {
+	#header-logo {
+		margin-left: -45px;
+		width: 100px;
+	}
+}
+
+/*Navigation*/
+
+@media (max-width: 1400px) {
+	.nav-link {
+		margin-top: 15px;
+		font-size: 1.3em;
+	}
+
+	.home-link {
+		margin-right: 10px;
+	}
+
+	.us-link {
+		margin-right: 10px;
+	}
+
+	.food-link {
+		margin-right: 82px;
+	}
+
+	.drink-link {
+		margin-left: 82px;
+	}
+
+	.location-link {
+		margin-left: 10px;
+	}
+
+	.contact-link {
+		margin-left: 10px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		margin-top: 5px;
+	}
+}
+
+/*Main Nav*/
+
+@media (max-width: 767px) { 
+	.main-nav {
+		background-color: transparent;
+		margin-top: 10px !important;
+	}
+}
+
+/*Home*/
+
+@media (max-width: 1400px) {
+	.statement {
+		font-size: 5.5em;
+	}
+}
+
+@media (max-width: 933px) {
+	.statement {
+		font-size: 4.8em;
+	}
+}
+
+@media (max-width: 854px) {
+	.statement {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 767px) {
+	.statement {
+		font-size: 2.5em;
+	}
+	.bull {
+		font-size: .5em;
+	}
+}
+
+/*Us*/
+
+@media (max-width: 1199px) {
+	.us-left-col {
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.us-left-col {
+		margin-top: 50px !important;
+	}
+	.us-header {
+		font-size: 2em;
+		text-align: center !important;
+	}
+	.us-para {
+		font-size: 1em;
+		margin: 20px 0px 20px 0px !important;
+	}
+
+	.us-right-col {
+		margin-top: 20px !important;
+		margin-bottom: 50px !important;
+	}
+	.us-info-headers {
+		font-size: 2em;
+		text-align: center !important;
+	}
+	.us-info {
+		text-align: center !important;
+	}
+}
+
+/*Food*/
+
+@media (max-width: 767px) {
+	.food-header {
+		font-size: 2.6em;
+	}
+	.street-taco-header {
+		font-size: 2.2em;
+	}
+	.burrito-header {
+		font-size: 2.2em;
+	}
+	.specialty-header {
+		font-size: 2.2em;
+	}
+}
+
+/*Contact*/
+
+@media (max-width: 1199px) {
+	.us-info-headers, .form-header {
+		font-size: 2.2em;
+	}
+	.us-info {
+		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 991px) {
+	.form-wrapper {
+		padding-bottom: 100px;
+	}
+}
+
+/*Footer*/

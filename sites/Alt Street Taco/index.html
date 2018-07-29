@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+
+    <div class="header-wrapper"> <!-- Header -->
+
+      <div class="logo-wrapper"> <!-- Logo -->
+
+          <a href="#home"><img src="img/streetTacoLogoFull.png" id="header-logo" alt="Street Taco and Beer Logo"></a>
+        
+      </div> <!-- /Logo -->
+
+      <div id="myNav" class="overlay"> <!-- Navbar Overlay -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#home" onclick="closeNav()">Home</a>
+          <a href="#us" onclick="closeNav()">Meet Street</a>
+          <a href="#food" onclick="closeNav()">Food</a>
+          <a href="#drink" onclick="closeNav()">Drink</a>
+          <a href="#location" onclick="closeNav()">Location</a>
+          <a href="#contact" onclick="closeNav()">Contact</a>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark"> <!-- Navbar -->
+        <button class="navbar-toggler" type="button" onclick="openNav()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link lead home-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead us-link" href="#us">Meet Street</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead food-link" href="#food">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead drink-link" href="#drink">Drink</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead location-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead contact-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav> <!-- /Navbar -->
+
+    </div> <!-- /Header -->
+
+    <!-- Entire Site -->
+
+    <div class="container-fluid site-container"> <!-- Site container -->
+      
+      <div class="home-container text-center" id="home"> <!-- Home section -->
+
+        <div class="jumbotron">
+          <h1 class="display-1 statement">Grub <span class="bull">&bull;</span> Drink <span class="bull">&bull;</span> Chill</h1>
+        </div>
+        
+      </div> <!-- /Home section -->
+
+      <div class="us-container" id="us"> <!-- Us container -->
+
+        <div class="row justify-content-around align-items-center mx-0"> <!-- Us nav and text container --> 
+
+          <nav class="main-nav navbar navbar-expand-md mt-0"> <!-- Main Navbar -->
+            <button class="navbar-toggler" type="button" onclick="openNav()">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#us">Meet Street</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#food">Food</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#drink">Drink</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#location">Location</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link main-nav-link lead" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav> <!-- /Main Navbar -->
+          
+          <div class="col-xl-5 col-sm-10 us-left-col"> <!-- Us left column -->
+            
+            <div class="us-heading">
+              
+              <h1 class="display-4 us-header">So, about us..</h1>
+
+              <p class="lead us-para mt-5">Street Taco and Beer Co. is a fast, casual restaurant known for it's authentic street style tacos and amazing food, along with a great selection of beers.</p>
+
+              <p class="lead us-para mt-5">Enjoy an incredible meal in our spacious dining area, or enjoy the beautiful Tucson weather and Downtown scenery by sitting at our covered patio.</p>
+
+              <p class="lead us-para mt-5">From our Street Dogs to our Street Nachos, we have plenty of grub to satisfy your craving, and plenty of cold drinks on hand to keep a smile on your face. So bring your family, friends, even co-workers, and enjoy authentic food in an authentic atmosphere.</p>
+
+            </div>
+
+          </div> <!-- /Us left column -->
+
+          <div class="col-xl-5 col-sm-10 us-right-col"> <!-- Us right column -->
+
+            <div class="us-image img-fluid">
+              
+              <img src="img/bar.jpg" class="img-fluid" alt="">
+
+            </div>
+
+          </div> <!-- /Us right column -->
+
+        </div> <!-- /Us nav and text container -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-interval="4000" data-ride="carousel"> <!-- Image carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/img_slider/tacoTuesday.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img_slider/drinks.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img_slider/outside.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img_slider/fishTacos.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img_slider/tacoVariety.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> <!-- /Image carousel -->
+        
+      </div> <!-- /Us container -->
+
+      <div class="food-container" id="food"> <!-- Food container -->
+        
+        <div class="food-wrapper col-md-12">
+          
+          <div class="row food-header-wrapper justify-content-center">
+
+            <h1 class="food-header display-3">Food (Grub)</h1>
+
+          </div>
+
+          <div class="row street-taco-header-wrapper justify-content-center">
+            
+            <h1 class="display-4 street-taco-header">Street Tacos</h1>
+
+          </div>
+
+          <div class="row col-xl-8 col-md-12 mx-auto street-taco-items">
+            
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Asada&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Steak)</h4>
+              <h4 class="lead menu-item-price">2.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Pollo Asado&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Grilled Chicken)</h4>
+              <h4 class="lead menu-item-price">2.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Al Pastor&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Marinated Pork)</h4>
+              <h4 class="lead menu-item-price">3</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Carnitas&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Pork)</h4>
+              <h4 class="lead menu-item-price">2.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Stredded Beef</h4>
+              <h4 class="lead menu-item-price">2.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Fish</h4>
+              <h4 class="lead menu-item-price">3</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Veggie</h4>
+              <h4 class="lead menu-item-price">2</h4>
+            </div>
+
+          </div>
+
+          <div class="row burrito-header-wrapper justify-content-center">
+            
+            <h1 class="display-4 burrito-header">Burritos and Tortas</h1>
+
+          </div>
+
+          <div class="row col-xl-8 col-md-12 mx-auto burrito-items">
+            
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Asada&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Steak)</h4>
+              <h4 class="lead menu-item-price">7</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Pollo Asado&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Grilled Chicken)</h4>
+              <h4 class="lead menu-item-price">7</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Al Pastor&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Marinated Pork)</h4>
+              <h4 class="lead menu-item-price">7.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Carnitas&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Pork)</h4>
+              <h4 class="lead menu-item-price">7</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Stredded Beef</h4>
+              <h4 class="lead menu-item-price">7</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Fish</h4>
+              <h4 class="lead menu-item-price">7.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Veggie</h4>
+              <h4 class="lead menu-item-price">6</h4>
+            </div>
+
+          </div>
+
+          <div class="row specialty-header-wrapper justify-content-center">
+            
+            <h1 class="display-4 specialty-header">Specialty Items</h1>
+
+          </div>
+
+          <div class="row col-xl-8 col-md-12 mx-auto specialty-items">
+            
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Street Dog</h4>
+              <h4 class="lead menu-item-price">3.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Street Fries&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Choice of meat)</h4>
+              <h4 class="lead menu-item-price">7.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Street Nachos&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Choice of meat)</h4>
+              <h4 class="lead menu-item-price">7.5</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Quesadilla</h4>
+              <h4 class="lead menu-item-price">4</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Quesadilla&nbsp;</h4>
+              <h4 class="lead menu-item-coname">(Choice of meat)</h4>
+              <h4 class="lead menu-item-price">6</h4>
+            </div>
+
+          </div>
+
+          <div class="row sides-header-wrapper justify-content-center">
+            
+            <h1 class="display-4 sides-header">Sides</h1>
+
+          </div>
+
+          <div class="row col-xl-8 col-md-12 mx-auto sides-items last-item">
+            
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Refried Beans</h4>
+              <h4 class="lead menu-item-price">1</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Pinto Beans</h4>
+              <h4 class="lead menu-item-price">1</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Black Beans</h4>
+              <h4 class="lead menu-item-price">1</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Mex Rice</h4>
+              <h4 class="lead menu-item-price">1</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">White Rice</h4>
+              <h4 class="lead menu-item-price">1</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">Calabacitas</h4>
+              <h4 class="lead menu-item-price">2</h4>
+            </div>
+
+            <div class="col-md-4 text-center pb-3">
+              <h4 class="lead menu-item-name">House Quac</h4>
+              <h4 class="lead menu-item-price">3</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div> <!-- /Food container -->
+
+      <div class="drink-container" id="drink"> <!-- Drink container -->
+        
+        <div class="drink-header-wrapper col-md-12">
+          
+          <div class="row drink-header-wrapper justify-content-center">
+
+            <h1 class="drink-header display-3">Drinks</h1>
+
+          </div>
+
+          <div class="row drink-wrapper last-item justify-content-center">
+
+            <div class="col-md-4">
+              
+              <h1 class="display-4 text-center mixed-header">Mixed</h1>
+
+              <div class="mixed-wrapper"> <!-- Mixed List -->
+
+                <h4 class="drink-item lead text-center pb-3">Margarita</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Paloma</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Pulque</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Michelada</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Tejuino</h4>
+
+              </div> <!-- /Mixed List -->
+
+            </div>
+
+            <div class="col-md-4">
+              
+              <h1 class="display-4 text-center beer-header">Beer</h1>
+
+              <div class="beer-wrapper"> <!-- Beer List -->
+
+                <h4 class="drink-item lead text-center pb-3">Pacifico</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Corona</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Negra Modelo</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Tecate</h4>
+
+                <h4 class="drink-item lead text-center pb-3">Dos Equis</h4>
+
+              </div> <!-- /Beer List -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div> <!-- /Drink container -->
+
+      <div class="location-container" id="location">
+        
+        <iframe src="https://snazzymaps.com/embed/18732" class="map" style="border:none;"></iframe>
+
+      </div>
+
+      <div class="contact-container" id="contact"> <!-- Contact Container -->
+
+        <div class="row container-wrapper mx-auto">
+          
+          <div class="col-lg-5 info-wrapper mx-auto text-center">
+            
+            <h4 class="display-4 us-info-headers pb-3" id="location-header">Where to find us</h4>
+            
+            <p class="lead us-info">58 W. Congress St.</p>
+
+            <p class="lead us-info pb-3">Tucson, AZ 85701</p>
+
+            <h4 class="display-4 us-info-headers pb-3" id="hour-header">When are we open</h4>
+            
+            <p class="lead us-info">Mon, Wed, Thurs: 11:00 AM - 9:00 PM</p>
+            
+            <p class="lead us-info">Tues, Fri, Sat: 11:00 AM - 10:00 PM</p>
+          
+            <p class="lead us-info pb-3">Closed Sundays</p>
+
+            <h4 class="display-4 us-info-headers pb-3" id="phone-header">And how to reach us</h4>
+            
+            <p class="lead us-info">520-269-6266</p>
+
+          </div>
+
+          <div class="col-lg-5 col-sm-10 form-wrapper mx-auto text-center align-self-center" id="contact-form">
+
+            <h4 class="display-4 form-header pb-4" id="form-header">Even drop us a message</h4>
+            
+            <form name="contactform" method="post" action="send_form_email.php">
+
+              <fieldset>
+
+                <div class="form-group">
+
+                  <div class="firstName">
+                      <input id="fname" name="first_name" type="text" placeholder="First Name" class="form-control">
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+
+                  <div class="lastName">
+                      <input id="lname" name="last_name" type="text" placeholder="Last Name" class="form-control">
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+
+                  <div class="emailInput">
+                      <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+
+                  <div class="phoneInput">
+                      <input id="phone" name="telephone" type="text" placeholder="Phone" class="form-control">
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+
+                  <div class="messageInput">
+                      <textarea class="form-control" id="message" name="comments" placeholder="Enter your massage for us here." rows="7"></textarea>
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+
+                  <div class="text-center submit_button">
+                      <button type="submit" value="Submit" class="btn sub-btn btn-lg">Submit</button>
+                  </div>
+
+                </div>
+
+              </fieldset>
+
+            </form>
+                
+          </div>
+
+        </div>
+       
+      </div>
+
+      <footer>
+
+        <div class="row col-xl-10 mx-auto footer-wrapper justify-content-center align-items-center text-center py-3">
+
+            <div class="col-lg-3 lead">&copy; 2017 Street Taco and Beer</div>
+
+            <div class="col-lg-3 lead">Created by Justin Olson</div>
+
+            <div class="col-lg-3 lead">j.olson.digital@gmail.com</div>
+
+
+
+        </div>       
+
+      </footer>
+
+    </div> <!-- /Entire Site -->
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Navbar Overlay Script -->
+    <script>
+      function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+
+    <!-- Main Nav Appear/Disappear on Scroll -->
+    <script>
+
+      window.onscroll = function() {
+        var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+        if (scrollTop >= document.getElementById("us").offsetTop) {
+          $('.main-nav').fadeIn();
+          $('.main-nav').addClass('navbar-fixed');
+        } else {
+          $('.main-nav').fadeOut(1);
+          $('.main-nav').removeClass('navbar-fixed');
+        }
+      }
+
+    </script>
+
+    <!-- Smooth Scroll script - https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
+    <script>
+      
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            && 
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
+            }
+          }
+        });
+
+    </script>
+
+
+
+  </body>
+</html>
