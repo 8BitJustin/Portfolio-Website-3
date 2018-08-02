@@ -1,6 +1,6 @@
 const jolsondigital = {
     name: 'Justin',
-    interests: ['Coding', 'Gaming', 'Blog'],
+    interests: ['PC Gaming', 'Coding', 'Hiking'],
     expertise: () => {
         workingSkills();
         basicSkills();
