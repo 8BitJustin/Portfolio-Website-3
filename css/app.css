@@ -274,7 +274,7 @@ body {
 .card {
     background: #9733EE;
     border-radius: 10px;
-    border: 2px solid #e1e6f2;
+    border: 1px solid #e1e6f2;
     margin-bottom: 24px;
 }
 
@@ -293,13 +293,13 @@ body {
 
 .btn-work {
     background: none;
-    border: 2px solid #e1e6f2;
+    border: 1px solid #e1e6f2;
     color: #e1e6f2;
 }
 
 .btn-work:hover {
     background: #e1e6f2;
-    border: 2px solid #e1e6f2;
+    border: 1px solid #e1e6f2;
     color: #9733EE;
     box-shadow: 0 0 20px #DA22FF;
 }
