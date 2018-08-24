@@ -271,8 +271,15 @@ body {
 
 /* Work */
 
-.card {
-    background: #9733EE;
+.card-flp {
+    background: rgba(241, 71, 184, 0.61);
+    border-radius: 10px;
+    border: 1px solid #e1e6f2;
+    margin-bottom: 24px;
+}
+
+.card-udacity {
+    background: rgba(236, 76, 129, 0.61);
     border-radius: 10px;
     border: 1px solid #e1e6f2;
     margin-bottom: 24px;
