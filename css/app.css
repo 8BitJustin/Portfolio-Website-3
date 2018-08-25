@@ -372,7 +372,6 @@ body {
         max-width: 60%;
     }
 
-
     /* Fonts */
 
     .modal-heading {
@@ -385,6 +384,10 @@ body {
 
     .modal-para {
         font-size: 1.0rem;
+    }
+
+    .work-modal-para {
+        font-size: 1.15rem;
     }
 
     /* Name Modal */
@@ -430,6 +433,10 @@ body {
         font-size: .8rem;
     }
 
+    .work-modal-para {
+        font-size: 1.0rem;
+    }
+
     /* Main Box */
 
     .box {
@@ -459,6 +466,10 @@ body {
 
     .modal-para {
         font-size: .8rem;
+    }
+
+    .work-modal-para {
+        font-size: .9rem;
     }
 
     /* Main Box */
