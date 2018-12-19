@@ -264,10 +264,11 @@ body {
     transition:transform 0.25s ease;
 }
 
-#coding-modal img:hover {
+/* Commented out scale of image when hovered on. Recreated in JS as an onclick method */
+/* #coding-modal img:hover {
     -webkit-transform:scale(1.7);
     transform:scale(1.7);
-}
+} */
 
 /* Expertise */
 
